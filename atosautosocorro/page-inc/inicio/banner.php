@@ -1,0 +1,1 @@
+<section class="slider"><?php echo do_shortcode('[slide-anything id="366"]'); ?></section>

@@ -1,0 +1,170 @@
+@media (max-width: 1440px) {
+
+    .contact .contact-title h3   {
+        font-size: 3rem!important;
+        right: 55px!important;
+
+    }
+    .contact .contact-title h3:before {
+        font-size: 3rem!important;
+        top: -50px!important;
+    }
+    .segments-box .segments-box-details {
+        bottom: 150px!important;
+    }
+    .segments-box .segments-box-details h5 {
+        font-size: 1rem!important;
+    }
+	.contact .contact-form {
+		    max-width: 350px!important;
+	}
+}
+@media (max-width: 1360px) {
+
+    .contact .contact-title h3   {
+        font-size: 2rem!important;
+        right: 105px!important;
+
+    }
+    .contact .contact-title h3:before {
+        font-size: 2rem!important;
+        top: -30px!important;
+    }
+	.contact .contact-form {
+		    max-width: 300px!important;
+	}
+}
+@media (max-width: 1280px) {
+    .contact .contact-title h3   {
+        font-size: 2rem!important;
+        right: 145px!important;
+
+    }
+    .contact .contact-title h3:before {
+        font-size: 2rem!important;
+        top: -30px!important;
+    }
+	.contact .contact-form {
+		    max-width: 280px!important;
+	}
+}
+@media (max-width: 1024px) {
+    header .main-menu ul li+li {
+        margin-left: 20px!important;
+    }
+    header .main-menu ul li:last-child::after {
+        display:none!important;
+    }
+    .contact .contact-title h3 ,  .contact .contact-title h3:before , .about .about-info h2::after , .copyright::after {
+        display:none!important;
+    }
+    .about .about-info h2 {
+        transform: rotateZ(0)!important; 
+        right:0!important; 
+        top: 0!important;
+    }
+    .about .about-info .about-info-text {
+        padding-left: 0!important;
+    }
+    
+}
+@media (max-width: 992px) {
+   
+    header , header nav.sticky {
+        position: relative!important;
+    }
+    .navbar-toggler , .navbar-brand {
+        text-align: center!important;
+    }
+    .navbar-toggler-icon {
+        font-size: 1.75rem!important;
+        height: 1em!important;
+        
+    }
+    header .header-top , .about , .experiencie , .budget , .budget .budget-info h2 , .budget .budget-info p , .footer , .copyright p , header .main-menu ul li a {
+        text-align: center!important;
+    }
+    header .main-menu ul li+li {
+        margin-left: 0!important;
+    }
+    header .header-top-box ul li {
+        display: block!important;
+    }
+  
+    .services .card-custom .box-intern .box-mold .conteudo p {
+        font-size: 1rem!important;
+    }
+    .about .about-inner {
+        position: relative!important;
+        top: 0!important;
+      
+    }
+    .budget {
+        background:#fff!important;
+    }
+    #budget-desktop ,  #faq-desktop {
+        display:none!important;
+    }
+    #budget-mobile , #faq-mobile{
+        display:block!important;
+    }
+	.contact .contact-form {
+		        max-width: 100%!important;
+    	width: 100%!important;
+	}
+    .contact {
+        background:#fff!important;
+    }
+   
+}
+@media (max-width: 800px) {
+    .wrapper {
+        padding: 50px 15px!important;
+    }
+    .footer .footer-wrapper {
+        padding: 25px 15px!important;
+    }
+    header .header-top-box ul li:first-child {
+        display: none!important;
+    }
+   .contact .contact-form h2 {
+		display:block!important;
+	   text-align: center;
+    	margin: 20px;
+	}
+}
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 25px 10px!important;
+    }
+    .footer .footer-wrapper {
+        padding: 25px 10px!important;
+    }
+    .slider .single-slider .text {
+        margin-top: 30vh!important;
+    }
+    .contact .contact-box {
+        display: inline-block!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    h1, h2, h3 {
+        font-size:1.45rem!important;
+    }
+    h4, h5, h6 {
+        font-size:1.25rem!important;
+    }
+    header .header-top-box ul {
+        padding-left: 0!important;
+    }
+    .footer-widget {
+        margin-top: 20px;
+    }
+    .copyright {
+        text-align: center!important;
+    }
+    .budget-form-inner {
+        padding:10px!important;
+    }
+   
+}
